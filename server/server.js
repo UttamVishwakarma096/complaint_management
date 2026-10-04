@@ -9,7 +9,10 @@ const app = express();
 connectDB();
 app.use(
   cors({
-    origin: "https://complaint-management-phi-three.vercel.app/",
+    origin: [
+      "http://localhost:5173", // Keep local URL for local development
+      "https://complaint-management-1-f5mw.onrender.com" // Add your Render frontend URL
+    ],,
     credentials: true,
   }),
 );
