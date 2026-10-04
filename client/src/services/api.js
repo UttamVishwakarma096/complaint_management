@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:4000/api";
+const API_URL = "https://complaint-management-dkyn.onrender.com/api";
 
 const jsonHeaders = {
   "Content-Type": "application/json",
